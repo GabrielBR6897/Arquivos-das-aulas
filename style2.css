@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    background-color: DodgerBlue;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin: 0 0;
+    background-color: DeepSkyBlue;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.container {
+    padding: 20px;
+}
+
+.control-buttons {
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-50%);
+}
+
+.control-buttons button {
+    background: dodgerblue;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.control-buttons button:hover {
+    background: DeepSkyBlue;
+}
+
+main {
+    flex: 1;
+    margin-left: 0;
+    padding: 2rem;
+    margin-bottom: 4rem;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 70px;
+}
+
+footer {
+    background-color: DodgerBlue;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 98.4%;
+    bottom: 0;
+}
+
+.error-message {
+    color: red;
+}
+
+.product-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.product-list li {
+    background-color: #fff;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.dark-theme {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-theme header {
+    background: #333;
+}
+
+.dark-theme footer {
+    background: #333;
+}

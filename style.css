@@ -3,18 +3,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f8f8;
-    color: #333;
+    color: #000000;
     transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: #ffcc99;
+    background-color: DodgerBlue;
     padding: 20px;
     text-align: center;
 }
 nav {
     text-align: center;
-    margin: 10px 0;
+    margin: 0 0;
+    background-color: DeepSkyBlue;
 }
 nav a {
     margin: 0 15px;
@@ -31,14 +32,14 @@ nav a:hover {
 .control-buttons {
     position: fixed;
     top: 50%;
-    right: 1rem;
+    right: 2rem;
     display: flex;
     flex-direction: column;
     transform: translateY(-50%);
 }
 
 .control-buttons button {
-    background: #264653;
+    background: dodgerblue;
     color: white;
     border: none;
     padding: 0.5rem;
@@ -50,7 +51,7 @@ nav a:hover {
 }
 
 .control-buttons button:hover {
-    background: #2a9d8f;
+    background: DeepSkyBlue;
 }
 
 main {
@@ -61,15 +62,20 @@ main {
 }
 
 h1, h2 {
-    color: #264653;
+    color: #000000;
+}
+
+.text {
+    margin-left: 20px;
+    margin-right: 70px;
 }
 
 footer {
-    background-color: #ffcc99;
+    background-color: DodgerBlue;
     text-align: center;
     padding: 10px;
     position: relative;
-    width: 98.9%;
+    width: 98.4%;
     bottom: 0;
 }
 
