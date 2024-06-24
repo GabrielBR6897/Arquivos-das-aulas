@@ -75,8 +75,9 @@ footer {
     text-align: center;
     padding: 10px;
     position: relative;
-    width: 98.4%;
+    width: 98.9%;
     bottom: 0;
+ 
 }
 
 .error-message {
@@ -107,4 +108,7 @@ footer {
 
 .dark-theme footer {
     background: #333;
+}
+img {
+height: 300px;
 }

@@ -75,8 +75,9 @@ footer {
     text-align: center;
     padding: 10px;
     position: relative;
-    width: 98.4%;
+    width: 99.4%;
     bottom: 0;
+    position: fixed;
 }
 
 .error-message {
