@@ -11,6 +11,7 @@ header {
     background-color: DodgerBlue;
     padding: 20px;
     text-align: center;
+    font-size: larger;
 }
 nav {
     text-align: center;
@@ -65,9 +66,9 @@ h1, h2 {
     color: #000000;
 }
 
-.text {
-    margin-left: 20px;
-    margin-right: 70px;
+h2 {
+    margin-left: 23%;
+    margin-right: 77;
 }
 
 footer {
@@ -87,6 +88,7 @@ footer {
 .product-list {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
 
 .product-list li {
@@ -95,6 +97,7 @@ footer {
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
+    text-align: center;
 }
 
 .dark-theme {
@@ -110,5 +113,11 @@ footer {
     background: #333;
 }
 img {
-height: 300px;
+min-width: 300px;
+width: 100px;
+align-items: center;
+}
+.text {
+    margin-left: 20px;
+    margin-right: 70px;
 }
